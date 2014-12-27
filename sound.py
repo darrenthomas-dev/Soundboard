@@ -21,4 +21,4 @@ while True:
 		sound = pygame.mixer.Sound(path + soundclip)
 		sound.play()
 		while pygame.mixer.get_busy() == True:
-    	continue
+    			continue
